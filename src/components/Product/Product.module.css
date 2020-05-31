@@ -1,0 +1,78 @@
+.Card{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  border-radius: .25rem;
+  transition: all 1s linear;
+}
+.Card:hover{
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)
+}
+.imgContainer{
+  position: relative;
+  overflow: hidden;
+  padding: 3rem;
+}
+.CardImg{
+  width: 100%;
+  transition: all 1s linear;
+}
+img {
+  vertical-align: middle;
+}
+.imgContainer:hover .CardImg{
+  transform: scale(1.2)
+}
+.CartBtn{
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0.25rem 0.5rem;
+  background: var(--lightBlue);
+  color: var(--main-white);
+  border: none;
+  font-size: 1.34rem;
+  border-radius: 0.5rem 0 0 0 ; /*top-left ...*/
+  transform: translate(100%, 100%); /* disappear from bottom right */
+  transition: all 1s linear;
+
+}
+.imgContainer:hover .CartBtn{
+  transform: translate(0,0) 
+}
+.CartBtn:hover{
+  color: var(--mainBlue);
+}
+.CartBtn p {
+  padding: 0;
+  margin: 0;
+}
+.CartBtn:disabled,
+.CartBtn:disabled:hover{
+  pointer-events:none;
+  opacity: 0.65;
+  color: var(--mainBlue);
+}
+.Footer{
+  transition: all 1s linear;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 1.25rem;
+}
+.Footer p{
+  align-self: center;
+  margin: 0;
+}
+.Footer h5{
+  margin: 0;
+  color: var(--mainBlue);
+  font-style: italic;
+  font-size: 1.25rem
+}
+.Card:hover .Footer{
+  background: rgba(247, 247, 247)
+}

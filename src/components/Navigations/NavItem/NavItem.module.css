@@ -1,0 +1,14 @@
+.NavItem{
+  list-style: none;
+  margin: 0 auto 0 0 ;
+  padding: 0;
+  transition: all ease-in-out 0.15s;
+}
+.NavLink{
+  color: #f8f9fa; 
+  text-decoration: none
+}
+.NavLink:hover{
+  color: #cbd3da;
+  text-decoration: none
+}

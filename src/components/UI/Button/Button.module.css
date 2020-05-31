@@ -1,0 +1,70 @@
+.Btn{
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  margin : 0.25rem 0;
+  margin-bottom: .25rem;
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  background-color: transparent;
+  border: 1px solid transparent;
+  outline: 0;
+  transition: all ease-in-out .15s;
+  font-family: 'Oswald'!important;
+} 
+
+.CartBtn{
+  border-color: var(--lightBlue);
+  color: var(--lightBlue);
+}
+.CartBtn:hover{
+  color: var(--mainBlue);
+  background-color: var(--lightBlue);
+}
+/* styling buttons in details page */
+.BackTops{
+  border-color: var(--lightBlue);
+  color: var(--lightBlue);
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.BackTops:hover,
+.BackTops:active{
+  background-color: var(--lightBlue);
+  color: var(--mainBlue);
+}
+.addToCart{
+  border-color: var(--mainYellow);
+  color: var(--mainYellow);
+  vertical-align: baseline;
+}
+.addToCart:hover,
+.addToCart:active{
+  background-color: var(--mainYellow);
+  color: var(--mainDark)
+}
+.addToCart:disabled{
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.65;
+}
+.ClearBtn{
+  color: #dc3545;
+  border-color:  #dc3545;
+  margin-bottom: 1rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.ClearBtn:hover,
+.ClearBtn:active{
+  color: #fff;
+  background-color: #dc3545;
+}

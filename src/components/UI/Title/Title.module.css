@@ -1,0 +1,7 @@
+.Heading{
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.Heading strong{
+  color: var(--mainBlue);
+}
